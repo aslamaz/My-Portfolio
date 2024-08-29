@@ -18,7 +18,7 @@ const Contactme = () => {
                 <form method='POST' action="https://api.web3forms.com/submit" className='max-w-2xl mx-auto'>
                 <input type="hidden" name="access_key" value="edaaa38e-321a-4456-ac7b-9fff99d55392"/>
 
-                    <div className='grid gap-6 mt-10 mb-8 grid-cols-auto'>
+                    <div className='grid grid-cols-1 gap-6 mt-10 mb-8 sm:grid-cols-2'>
                         <input type='text' placeholder='Enter your name' className=' flex-1 p-3 outline-none
                         border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-[#2a004a]
                         dark:border-purple-900' required name='name'></input>

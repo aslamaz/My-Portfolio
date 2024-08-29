@@ -38,7 +38,7 @@ const Aboutme = () => {
               contributing their success and growth.
             </p>
 
-            <ul className='grid max-w-2xl gap-6 grid-cols-auto sm:grid-cols-3'>
+            <ul className='grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-3'>
 
               <li className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff]
                   hover:translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000] dark:border-purple-900

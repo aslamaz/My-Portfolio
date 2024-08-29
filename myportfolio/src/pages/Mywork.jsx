@@ -18,7 +18,7 @@ const Mywork = () => {
                     my expertise in Frontend development.
                 </p>
 
-                <div className='grid gap-5 my-10 grid-cols-auto dark:text-black'>
+                <div className='grid grid-cols-1 gap-5 my-10 sm:grid-cols-4 dark:text-black'>
                     <div className='relative bg-center bg-no-repeat bg-cover rounded-lg cursor-pointer aspect-square '>
                         <img src={ecommerce} alt="" className='rounded-xl'/>
                         <div className='absolute flex items-center justify-between w-10/12 px-5 py-3 duration-500 bg-white rounded-md hover:translate-y-1 bottom-5 left-7 group-hover:bottom-7'>

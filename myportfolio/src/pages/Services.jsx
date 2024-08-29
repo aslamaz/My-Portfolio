@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, {  } from 'react'
 import webicon from '../images/web-icon.png'
 import rightarrow from '../images/right-arrow.png'
 import rightarrowwhite from '../images/right-arrow-white.png'
 import mobileicon from '../images/mobile-icon.png'
-import uiicon from '../images/ui-icon.png'
+// import uiicon from '../images/ui-icon.png'
 import graphicsicon from '../images/graphics-icon.png'
 import CardComponent from './CardComponent'
 
@@ -23,8 +23,7 @@ const Services = () => {
                     Still i am a trainee position and seeking for a good job.
                 </p>
 
-                <div className='grid gap-6 my-10 grid-cols-auto'>
-
+                <div className='grid grid-cols-1 gap-6 my-10 sm:grid-cols-3'>
                     <CardComponent
                         icon={webicon}
                         title="Web Design"
