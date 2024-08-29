@@ -4,13 +4,6 @@ import profileimg from '../images/profileimg.png'
 import handicon from '../images/hand-icon.png'
 import rightarrowwhite from '../images/right-arrow-white.png'
 import downloadicon from '../images/download-icon.png'
-import htmlicon from '../images/html.png'
-import Cssicon from '../images/css.png'
-import jsicon from '../images/js.png'
-import tsicon from '../images/ts.png'
-import reacticon from '../images/react.png'
-import tailwindicon from '../images/tailwind.png'
-import nodeicon from '../images/node.png'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -24,30 +17,7 @@ const Home = () => {
 
             
 
-                <ul className='flex items-center gap-3 mt-3 sm:gap-5'>
-                <h4 className='my-3 text-xl font-bold text-gray-700 dark:text-white'>My Skills :</h4>
-                    <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                        <img src={htmlicon} alt="" className='w-5 sm:w-7' />
-                    </li>
-                    <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                        <img src={Cssicon} alt="" className='w-5 sm:w-7' />
-                    </li>
-                    <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                        <img src={jsicon} alt="" className='w-5 sm:w-7' />
-                    </li>
-                    <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                        <img src={tsicon} alt="" className='w-5 sm:w-7' />
-                    </li>
-                    <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                        <img src={tailwindicon} alt="" className='w-5 sm:w-7' />
-                    </li>
-                    <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                        <img src={reacticon} alt="" className='w-5 sm:w-7' />
-                    </li>
-                    <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                        <img src={nodeicon} alt="" className='w-5 sm:w-7' />
-                    </li>
-                </ul>
+                
 
                 <div className='flex flex-col items-center gap-4 mt-4 sm:flex-row'>
                     <Link

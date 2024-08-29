@@ -9,9 +9,9 @@ const CardComponent = ({ icon, title, description, readMoreLink, rightArrow, rig
 
     return (
         <div className='px-8 py-12 border border-gray-400 rounded-lg
-    hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1
-    duration-500  dark:border-purple-900
-dark:hover:shadow-white dark:hover:bg-[#2a004a]/50'>
+                hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1
+                duration-500  dark:border-purple-900
+            dark:hover:shadow-white dark:hover:bg-[#2a004a]/50'>
             <img src={icon} alt='' className='w-10' />
             <h3 className='my-4 text-lg text-gray-700 dark:text-white'>{title}</h3>
             <p className='text-sm leading-5 text-gray-600 dark:text-white'>

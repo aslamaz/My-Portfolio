@@ -8,10 +8,16 @@ import projecticon from '../images/project-icon.png'
 import projecticondark from '../images/project-icon-dark.png'
 import vscodeicon from '../images/vscode.png'
 import firebaseicon from '../images/firebase.png'
-import figmaicon from '../images/figma.png'
 import gitlogo from '../images/git.png'
 import mogodbicon from '../images/mongodb.png'
 import bootstraplogo from '../images/bootstrap-logo.png'
+import htmlicon from '../images/html.png'
+import Cssicon from '../images/css.png'
+import jsicon from '../images/js.png'
+import tsicon from '../images/ts.png'
+import reacticon from '../images/react.png'
+import tailwindicon from '../images/tailwind.png'
+import nodeicon from '../images/node.png'
 
 const Aboutme = () => {
   return (
@@ -24,6 +30,7 @@ const Aboutme = () => {
           <div className='relative mx-auto max-w-max'>
             <img src={userimage} alt="" className='w-64 sm:w-80 rounded-3xl max-w-none' />
           </div>
+
           <div className='flex-1'>
             <p className='max-w-2xl mb-10'>
               I am an experienced Frontend Developer with over a decade of professional expertise in the field .
@@ -62,26 +69,50 @@ const Aboutme = () => {
 
             </ul>
 
+            <h4 className='my-6 text-gray-700 dark:text-white'>My Skills:</h4>
+
+            <ul className='flex flex-wrap gap-3 mt-3 sm:gap-5'>
+              <li className='flex items-center justify-center w-[calc(50%-6.25rem)] sm:w-14 duration-500 border border-gray-400 rounded-lg cursor-pointer aspect-square hover:translate-y-1'>
+                <img src={htmlicon} alt="" className='w-5 sm:w-7' />
+              </li>
+              <li className='flex items-center justify-center w-[calc(50%-6.25rem)] sm:w-14 duration-500 border border-gray-400 rounded-lg cursor-pointer aspect-square hover:translate-y-1'>
+                <img src={Cssicon} alt="" className='w-5 sm:w-7' />
+              </li>
+              <li className='flex items-center justify-center w-[calc(50%-6.25rem)] sm:w-14 duration-500 border border-gray-400 rounded-lg cursor-pointer aspect-square hover:translate-y-1'>
+                <img src={jsicon} alt="" className='w-5 sm:w-7' />
+              </li>
+              <li className='flex items-center justify-center w-[calc(50%-6.25rem)] sm:w-14 duration-500 border border-gray-400 rounded-lg cursor-pointer aspect-square hover:translate-y-1'>
+                <img src={tsicon} alt="" className='w-5 sm:w-7' />
+              </li>
+              <li className='flex items-center justify-center w-[calc(50%-6.25rem)] sm:w-14 duration-500 border border-gray-400 rounded-lg cursor-pointer aspect-square hover:translate-y-1'>
+                <img src={tailwindicon} alt="" className='w-5 sm:w-7' />
+              </li>
+              <li className='flex items-center justify-center w-[calc(50%-6.25rem)] sm:w-14 duration-500 border border-gray-400 rounded-lg cursor-pointer aspect-square hover:translate-y-1'>
+                <img src={reacticon} alt="" className='w-5 sm:w-7' />
+              </li>
+              <li className='flex items-center justify-center w-[calc(50%-6.25rem)] sm:w-14 duration-500 border border-gray-400 rounded-lg cursor-pointer aspect-square hover:translate-y-1'>
+                <img src={nodeicon} alt="" className='w-5 sm:w-5' />
+              </li>
+            </ul>
+
             <h4 className='my-6 text-gray-700 dark:text-white'>Tools i Use</h4>
 
             <ul className='flex items-center gap-3 sm:gap-5'>
               <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                <img src={vscodeicon} alt="" className='w-5 sm:w-7'/>
+                <img src={vscodeicon} alt="" className='w-5 sm:w-7' />
               </li>
               <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                <img src={firebaseicon} alt="" className='w-5 sm:w-7'/>
+                <img src={firebaseicon} alt="" className='w-5 sm:w-7' />
+              </li>
+
+              <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
+                <img src={gitlogo} alt="" className='w-5 sm:w-7' />
               </li>
               <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                <img src={figmaicon} alt="" className='w-5 sm:w-7'/>
+                <img src={mogodbicon} alt="" className='w-5 sm:w-7' />
               </li>
               <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                <img src={gitlogo} alt="" className='w-5 sm:w-7'/>
-              </li>
-              <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                <img src={mogodbicon} alt="" className='w-5 sm:w-7'/>
-              </li>
-              <li className='flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:translate-y-1'>
-                <img src={bootstraplogo} alt="" className='w-5 sm:w-7'/>
+                <img src={bootstraplogo} alt="" className='w-5 sm:w-7' />
               </li>
             </ul>
 
