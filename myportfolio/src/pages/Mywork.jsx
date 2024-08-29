@@ -6,6 +6,7 @@ import workimg4 from '../images/work-4.png'
 import sendicon from '../images/send-icon.png'
 import rightArrowbold from '../images/right-arrow-bold.png'
 import rightArrowbolddark from '../images/right-arrow-bold-dark.png'
+import { Link } from 'react-router-dom'
 
 const Mywork = () => {
     return (
@@ -28,7 +29,7 @@ const Mywork = () => {
                                 </div>
                                 <div className="border rounded-full border-black w-9 aspect-square flex items-center 
                                 justify-center shadow-[2px_2px_0_#000] duration-500 hover:bg-lime-300 transition">
-                                    <img src={sendicon} alt="" className='w-5'/>
+                                   <Link to={'https://github.com/aslamaz/ShopBay'}><img src={sendicon} alt="" className='w-5'/></Link>
                                 </div>
                         </div>
                     </div>
@@ -42,7 +43,7 @@ const Mywork = () => {
                                 </div>
                                 <div className="border rounded-full border-black w-9 aspect-square flex items-center 
                                 justify-center shadow-[2px_2px_0_#000] duration-500 hover:bg-lime-300 transition">
-                                    <img src={sendicon} alt="" className='w-5'/>
+                                  <Link to={'https://github.com/aslamaz/Netflix'}> <img src={sendicon} alt="" className='w-5'/></Link>
                                 </div>
                         </div>
                     </div>
