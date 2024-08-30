@@ -19,7 +19,7 @@ const Services = () => {
                 <h4 className='mb-2 text-lg text-center'>What i Offer</h4>
                 <h2 className='text-5xl text-center'>My Services</h2>
                 <p className='max-w-2xl mx-auto mt-5 mb-12 text-center'>
-                    I am a frotend developer from kerala, India with 5 moths experience in Mern stack.
+                    I am a frontend developer from kerala, India with 5 moths experience in Mern stack.
                     Still i am a trainee position and seeking for a good job.
                 </p>
 

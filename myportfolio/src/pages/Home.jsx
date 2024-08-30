@@ -12,8 +12,8 @@ const Home = () => {
             <div className='flex flex-col items-center justify-center w-11/12 h-screen max-w-3xl gap-4 mx-auto text-center'>
                 <img src={profileimg} alt='' className='w-32 rounded-full'></img>
                 <h3 className='flex items-center gap-2 mb-3 text-xl md:text-2xl'>Hi I'm Muhammed Aslam <img src={handicon} alt='' className='w-6'></img></h3>
-                <h1 className='text-3xl sm:text-6xl lg:text-[66px]'>frotend Developer based in Kerala.</h1>
-                <p className='max-w-2xl mx-auto'>I am a frotend developer from kerala, India with 5 months of experience in MERN.</p>
+                <h1 className='text-3xl sm:text-6xl lg:text-[66px]'>frontend Developer based in Kerala.</h1>
+                <p className='max-w-2xl mx-auto'>I am a frontend developer from kerala, India with 5 months of experience in MERN.</p>
 
             
 

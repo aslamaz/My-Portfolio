@@ -1,8 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { useState } from 'react'
 import logo from "../images/logo.png"
-import arrowicon from "../images/arrow-icon.png"
-import arrowicondark from "../images/arrow-icon-dark.png"
 import moonicon from "../images/moon_icon.png"
 import sunicon from "../images/sun_icon.png"
 import bgcolor from "../images/header-bg-color.png"
@@ -66,7 +64,7 @@ const Header = () => {
   return (
     <div className='overflow-x-hidden'>
       <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden'>
-        <img src={bgcolor} className='w-full'></img>
+        <img src={bgcolor} className='w-full' alt=''></img>
       </div>
       <nav ref={navRef} className='w-full fixed px-5 lg:px-8 py-4 flex items-center justify-between z-50 xl:px-[8%]'>
         <img src={aslamlogo} alt="logo" className='cursor-pointer w-28 mr-14 dark:hidden' />
@@ -86,11 +84,11 @@ const Header = () => {
             <img src={sunicon} alt="" className='hidden w-6 dark:block' />
           </button>
 
-          <a href="/Contactme" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500
+          {/* <a href="/Contactme" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500
             rounded-full ml-4 dark:text-white dark:border-purple-900'>Contact
             <img src={arrowicon} alt='arrow' className='w-3 dark:hidden'></img>
             <img src={arrowicondark} alt='arrow' className='hidden w-3 dark:block'></img>
-          </a>
+          </a> */}
           <button className='block ml-3 md:hidden' onClick={toggleMenu}>
             <img src={menublack} alt="" className='w-6 dark:hidden' />
             <img src={menuwhite} alt="" className='hidden w-6 dark:block' />
